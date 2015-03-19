@@ -1,0 +1,1 @@
+$(function(){smoothScroll.init({offset:20}),gumshoe.init({offset:21})});
