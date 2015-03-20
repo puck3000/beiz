@@ -1,1 +1,1 @@
-$(function(){smoothScroll.init({offset:20}),gumshoe.init({offset:21})});
+$(function(){smoothScroll.init({offset:20}),gumshoe.init({offset:21})}),$(function(){$("#navToggle").click(function(){$("nav").toggleClass("open")}),$("nav>ul>li>a").click(function(){$("nav").toggleClass("open")})});var myElement=document.querySelector("header"),headroom=new Headroom(myElement);headroom.init();
